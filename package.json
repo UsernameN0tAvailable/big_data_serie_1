@@ -1,0 +1,18 @@
+{
+  "name": "big_data_ex_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "createTables.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-tables": "node createTables.js",
+    "populate": "node insertRandomData.js",
+    "exercise-D": "node queries.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.4.0"
+  }
+}
